@@ -1,12 +1,13 @@
-import Mainperent from '@/layout';
+import { Navbar } from '@/layout';
 import El from '@/library/El';
 const App = () => {
   const app = El({
     element: 'div',
-    className: 'parent bg-red-300',
-    child: 'salam',
+    child:[
+      Navbar()
+    ]
   });
-  return Mainperent(app);
+  return app;
 };
 
 export default App;

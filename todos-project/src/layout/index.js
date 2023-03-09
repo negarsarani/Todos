@@ -1,10 +1,12 @@
 import El from '@/library/El';
+export * from './Navbar'
+// export * from './Table'
 
-const Mainperent = (child) => {
-  return El({
-    element: 'div',
-    className: 'bg-red-400',
-    child: 'NEgarr',
-  });
-};
-export default Mainperent;
+// const Mainperent = (child) => {
+//   return El({
+//     element: 'div',
+//     child:[Navbar()]
+
+//   });
+// };
+// export default Mainperent;
